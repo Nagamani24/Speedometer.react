@@ -1,0 +1,61 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: Roboto;
+  color: white;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.image {
+  height: 200px;
+  width: 450px;
+}
+
+.speed {
+  font-size: 20px;
+  color: white;
+}
+.description {
+  color: white;
+  font-size: 10px;
+  color: #cbd5e1;
+  font-family: Roboto;
+}
+
+.acc-button {
+  color: white;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 10px;
+}
+
+.brake-button {
+  color: #94a3b8;
+  border-width: 1px;
+  border-color: #94a3b8;
+  background-color: #07080c;
+  font-family: Roboto;
+  font-size: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+}
